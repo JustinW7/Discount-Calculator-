@@ -1,0 +1,61 @@
+body{
+  background-image: url(https://img.freepik.com/free-photo/purple-open-gift-box-with-voucher-bonus-surprise-minimal-present-greeting-celebration-promotion-discount-sale-reward-icon-3d-illustration_56104-2100.jpg?t=st=1710079226~exp=1710082826~hmac=b63dc816a0b4e7b686a1755480c6c84b42f8f9de6e372fcb85d445bc2039d9ee&w=996);
+  background-color: rgba(2, 4, 3,0.1);
+ background-size: cover;
+}
+.calculator {
+  text-align: center;
+  padding: 80px;
+  border-radius: 10px;
+  width: 700px;
+  margin-left: 430px;
+  margin-top: 180px;
+  background-size: cover;
+  color:black;
+
+ }
+ 
+ .inputs label {
+  display: flex;
+  margin-bottom: 20px;
+  color:black;
+  font-weight: 1000;
+ }
+ 
+ .inputs input {
+  width: 500px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ }
+ 
+ button {
+  background-color: #0d5b39;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+ }
+ 
+ button:hover {
+  background-color: #0056b3;
+ }
+ 
+ .outputs {
+  margin-top: 20px;
+  font-size: large;
+  font-weight:1000;
+  text-shadow:#0d5b39;
+  webkit-text-stroke:3px white;
+  color:white;
+ }
+ 
+ .outputs p {
+  margin-bottom: 10px;
+ }
+ 
+ .outputs span {
+  font-weight: bold;
+ }
